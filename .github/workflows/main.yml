@@ -59,7 +59,7 @@ jobs:
     steps:
       # Получение исходного когда из репозитория
     - name: Checkout the repo
-      uses: action/checkout@v3
+      uses: actions/checkout@v3
       # Установка сборщика контейнеров
     - name: Set up Docker
       uses: docker/setup-buildx-action@v3
