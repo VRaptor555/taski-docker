@@ -73,6 +73,7 @@ jobs:
     - name: Build and Push to Dockerhub
       uses: docker/build-push-action@v4
       with:
+      	context: ./backend/
         push: true
         tags: raptorcobra/taski_backend:latest
  
